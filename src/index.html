@@ -4,10 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Knotfest Brasil 2024</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/src/styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
-    <img src="/src/imagens/mascaras.png" alt="">
+    <header class="hero">
+        <div class="container"> 
+            <img class="hero__logo" src="/src/imagens/knotfest.png" alt="">
+            <img class="hero__logo2" src="/src/imagens/logo_slip.png" alt="">
+            <p class="hero__text">
+                HEADLINER NAS DUAS DATAS, COM SHOW ÚNICO EM CADA DIA.
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b> Dias </b>
+                        19/10 E 20/10
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b> Local </b>
+                        Allianz Parque - Barra Funda - São Paulo
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">Comprar ingresso</a>
+            </div>
+            <span id="contador"></span>
+        </div>
+    </header>
+    <hr>
+    <section class="event" >
+        <div class="container" data-aos="flip-right">
+            <div class="event__details">
+                <h2 class="event__details__title">O PRIMEIRO SHOW DO SLIPKNOT COM O ELOY CASAGRANDE NO BRASIL!</h2>
+                <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dolorum provident cum laborum sint labore recusandae repellat neque enim, ab, quos tempora qui sequi doloremque delectus quas ratione minima cupiditate!</p>
+            </div>
+        <img class="event__image" src="./imagens/eloy.png" alt="Eloy Casagrande - Baterista">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>
